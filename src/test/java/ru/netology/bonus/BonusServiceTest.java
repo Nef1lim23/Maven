@@ -23,7 +23,7 @@ class BonusServiceTest {
 //        assertEquals(expected, actual);
 //    }
 
-        @Test
+    @Test
     void shouldCalculateRegistredAndBonusUnderLimit() {
         BonusService service = new BonusService();
 
